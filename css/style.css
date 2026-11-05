@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+}
+.logo {
+    padding-right: 0;
+    width: 50px;
+    justify-content: center;
+}
+.menu ul, li {
+    list-style-type: none;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+} 
+.sanPham img {
+    max-width: 175px;
+}
