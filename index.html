@@ -3,56 +3,75 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MiniShop</title>
+        <title>Gay Tech Store</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Xin chào MiniShop</h1> 
         <header class="header">
-            <div class="logo">
-                <a href="#"><img src="img/logo.jpg" alt="shopLogo" width="50%"></a>
+            <div class="topBar">
+                <p class="slogan">Gaming gear khó, có gay tech lo</p>
+                <small class="note">Một cửa hàng nhỏ mang đến sự giải trí cho bạn</small>
             </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Trang chủ</li></a>
-                    <li><a href="pages/about.html">Giới thiệu</li></a>
-                    <li><a href="pages/products.html">Sản phẩm</li></a>
-                    <li><a href="pages/buy.html">Mua hàng</li></a>
+            <nav class="navBar">
+                <a href="index.html" class="logo"><img src="img/logo.jpg" alt="shopLogo" width="100%"></a>
+                <ul class="navLinks">
+                    <li><a href="index.html">Trang chủ</li></a>
+                    <li><a href="about.html">Giới thiệu</li></a>
+                    <li><a href="contact.html">Liên hệ</li></a>
                 </ul>
             </nav>
+            <div class="marquee">
+                <div class="marqueeTrack">
+                    <span class="item">Gaming gear thả ga, giá cực đã</span>
+                    <span class="item">Mua sắm liền tay</span>
+                    <span class="item">Giải trí không giới hạn</span>
+                </div>
+            </div>
         </header>
-        <div class="sanPham">
-            <article class="chuot">
-                <img src="img/chuot.jpg" alt="Chuột">
-                <h3>Chuột Logitech</h3>
-                <p class="price">199.000đ</p>
-                <button>Thêm vào giỏ</button>
-            </article>
-            <article class="lotChuot">
-                <img src="img/lotChuot.jpg" alt="Lót chuột">
-                <h3>Lót chuột Razer</h3>
-                <p class="price">300.000đ</p>
-                <button>Thêm vào giỏ</button>
-            </article>
-            <article class="phim">
-                <img src="img/manHinh.jpg" alt="Màn hình">
-                <h3>Màn hình Xiaomi</h3>
-                <p class="price">150.000đ</p>
-                <button>Thêm vào giỏ</button>
-            </article>
-            <article class="man">
-                <img src="img/phim.jpg" alt="Bàn phím">
-                <h3>Bàn phím Rapoo</h3>
-                <p class="price">180.000đ</p>
-                <button>Thêm vào giỏ</button>
-            </article>
-            <article class="taiNghe">
-                <img src="img/taiNghe.jpg" alt="Tai nghe">
-                <h3>Tai nghe Logitech</h3>
-                <p class="price">180.000đ</p>
-                <button>Thêm vào giỏ</button>
-            </article>
-        </div>
+        <main>
+            <section class="product">
+                <article class="productCard">
+                    <img src="img/chuot.jpg" alt="Chuột">
+                    <h3>Chuột gaming không dây Logitech G305 X Lightspeed White </h3>
+                    <p class="price">1.050.000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </article>
+                <article class="productCard">
+                    <img src="img/lotChuot.jpg" alt="Lót chuột">
+                    <h3>Lót chuột Razer Gigantus v2 - Meidum</h3>
+                    <p class="price">490.000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </article>
+                <article class="productCard">
+                    <img src="img/manHinh.jpg" alt="Màn hình">
+                    <h3>Màn hình Asus TUF gaming VG249QE5A 24" IPS 146Hz</h3>
+                    <p class="price">2.590.000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </article>
+                <article class="productCard">
+                    <img src="img/phim.jpg" alt="Bàn phím">
+                    <h3>Bàn phím cơ gaming không dây DareU Flex 75 ShoadowFold 3 Mode Pegasus switch</h3>
+                    <p class="price">850.000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </article>
+                <article class="productCard">
+                    <img src="img/taiNghe.png" alt="Tai nghe">
+                    <h3>Tai nghe gaming Rapoo VH160</h3>
+                    <p class="price">690.000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </article>
+                <article class="productCard">
+                    <img src="img/tayCam.png" alt="Tai cầm">
+                    <h3>Tay cầm chơi game PS5 Dualsense</h3>
+                    <p class="price">1.535.000đ</p>
+                    <button>Thêm vào giỏ</button>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
+            <span>&copy; 2026 Khoa CNTT, Trường ĐH KHTN, ĐHQG-HCM</span>
+        </footer>
         <script src="js/app.js"></script>
     </body>
 </html>
